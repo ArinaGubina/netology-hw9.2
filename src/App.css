@@ -1,0 +1,90 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.send{
+  display: flex;
+  flex-direction: column;
+}
+.post_btn{
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: block;
+  margin-top: 20px;
+  background-color: #afdaff;
+}
+.post_btn-change{
+  background-color: pink;
+  color: #646cff;
+}
+.post_btn-delete{
+  background-color: violet;
+  color: white;
+  cursor: pointer;
+}
+.btns_row{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 16px;
+}
+.post_item{
+  border: 1px solid violet;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: block;
+}
+.post_item:hover{
+  background-color: rgb(255, 222, 255);
+}
+.post_info{
+  display: flex;
+  align-items: center;
+}
+.post_info-block{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.post_content{
+  font-size: 30px;
+}
+.logo {
+  height: 3em;
+  padding: 15px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
